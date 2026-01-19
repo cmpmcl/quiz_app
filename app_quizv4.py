@@ -97,7 +97,7 @@ inizializza_stato()
 
 # --- FASE 1: SETUP ---
 if st.session_state.stato_quiz == 'setup':
-    st.title("📂 Carica Test")
+    st.title("📂 Carica Test amore mio")
     st.markdown("Carica un file `.txt` personale oppure usa il database incluso.")
     
     # 1. File Uploader
@@ -274,4 +274,5 @@ elif st.session_state.stato_quiz == 'fine':
 
     if st.button("Ricomincia"):
         st.session_state.clear()
+
         st.rerun()
